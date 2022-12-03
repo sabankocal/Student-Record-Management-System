@@ -24,4 +24,7 @@ A minimalist desktop app  to managae students record. **record are saved directl
 
 ## ``Records Saved in Excel File``
 <img src="ScreenShot/ViewExcel.JPG">
-"this change was made by Nurullah"
+sdlöam
+"this change was made by Nurullah" 
+
+                       "Hi there (bekir)"
