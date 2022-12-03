@@ -55,8 +55,11 @@ void passwordVerification()
 
 int main()
 {
+    //fake changes on Task_Mini to show resolve conflicts
+
 	// dummy changes on main branch!!!
 	// conflict is coming!!!
+
     // fast io
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
