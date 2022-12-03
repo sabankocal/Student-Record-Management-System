@@ -1,9 +1,12 @@
 #include <fstream>
 #include <string.h>
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
 #include <string>
 #include <Windows.h>
 #include <stdlib.h>
+#include <iostream>
+#include <sstream>
+#include <vector>
 
 using namespace std;
 
@@ -170,7 +173,7 @@ void deleteData()
         row.clear();
 
         getline(fin, line);
-        stringstream s(line);
+        stringstream s{ line };
 
         while (getline(s, word, ','))
         {
