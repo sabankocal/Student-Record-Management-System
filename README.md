@@ -39,3 +39,4 @@ sdlöam
 "this change was made by Nurullah" 
 
                        "Hi there (bekir)"
+Merhaba
