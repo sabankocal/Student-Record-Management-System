@@ -10,12 +10,11 @@
 ## Saban's fake changings!!!!
 ## Saban's fake changings!!!!
 
-### changes on master will cause @@@@@CONFLICTS@@@@@
-### changes on master will cause @@@@@CONFLICTS@@@@@
-### changes on master will cause @@@@@CONFLICTS@@@@@
-### changes on master will cause @@@@@CONFLICTS@@@@@
-### changes on master will cause @@@@@CONFLICTS@@@@@
-### changes on master will cause @@@@@CONFLICTS@@@@@
+### This change will cause a CONFLICT!!!
+### This change will cause a CONFLICT!!!
+### This change will cause a CONFLICT!!!
+### This change will cause a CONFLICT!!!
+### This change will cause a CONFLICT!!!
 
 A minimalist desktop app  to managae students record. **record are saved directly on an excel file to decrease data Entry labour cost**  and improves efficiency.
 
