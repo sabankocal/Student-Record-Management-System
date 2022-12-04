@@ -1,1 +1,2 @@
 C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\Student-Record-Management-System\x64\Debug\Student-Record-Management-System.exe
+C:\Users\bekir\Documents\C\Cpp-Codes\Student-Record-Management-System\Student-Record-Management-System\x64\Debug\Student-Record-Management-System.exe
