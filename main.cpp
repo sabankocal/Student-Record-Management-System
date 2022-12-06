@@ -3,11 +3,9 @@
 #include <string>
 #include <Windows.h>
 #include "adminFunction.h"
+#include "Student-Record-Management-System/main.h"
 
 using namespace std;
-
-void passwordVerification(void);
-void mainMenu(void);
 
 //Auth Before opening the main program
 
@@ -48,8 +46,8 @@ void passwordVerification()
         }
 
     }
-
     while (password != "password");
+    
     mainMenu(); // main menu function is in the Header File adminFunction.h
 }
 

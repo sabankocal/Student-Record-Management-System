@@ -140,10 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="AdminFunction.cpp" />
+    <ClCompile Include="StudentRecord.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\adminFunction.h" />
     <ClInclude Include="..\loading.h" />
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="StudentRecord.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\data.csv" />
