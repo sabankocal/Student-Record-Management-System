@@ -1,9 +1,12 @@
 #include <fstream>
 #include <string.h>
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
 #include <string>
 #include <Windows.h>
 #include <stdlib.h>
+#include <iostream>
+#include <sstream>
+#include <vector>
 
 using namespace std;
 
@@ -146,8 +149,20 @@ void deleteData()
     // Open the existing file
     fin.open("data.csv", ios::in);
 
+    if (!fin)
+    {
+        cout << "Failed to open data.csv / data.csv file not found!";
+        exit(0);
+    }
+
     // Create a new file to store the non-deleted data
     fout.open("datanew.csv", ios::out);
+
+    if (!fout)
+    {
+        cout << "Failed to open datanew.csv!";
+        exit(0);
+    }
 
     int rollnum, roll1, marks, count = 0, i;
     char sub;
@@ -158,7 +173,7 @@ void deleteData()
     // Get the roll number
     // to decide the data to be deleted
     cout << "Enter the roll number "
-         << "of the record to be deleted: ";
+        << "of the record to be deleted: ";
     cin >> rollnum;
 
     // Check if this record exists
@@ -170,7 +185,7 @@ void deleteData()
         row.clear();
 
         getline(fin, line);
-        stringstream s(line);
+        stringstream s{ line };
 
         while (getline(s, word, ','))
         {
@@ -360,7 +375,7 @@ void updateData()
 
         // renaming the updated file with the existing file name
         rename("datadnew.csv", "data.csv");
-    
+
 }
 
 */
@@ -371,11 +386,12 @@ void addData()
     if (!file)
     {
         cout << "\nFailed to open data.csv / data.csv file not found!";
+        exit(0);
     }
 
     else
         cout << "\t|Enter Data|" << endl
-             << endl;
+        << endl;
 
     string rollNumber, name, college, branch, attendance, physics, chemistry, maths;
     string moreData;
@@ -383,7 +399,7 @@ void addData()
     cout << "\nEnter Student's roll Number : ";
     cin >> rollNumber;
     file << "\n"
-         << rollNumber << ", ";
+        << rollNumber << ", ";
 
     cout << "\nEnter Studnet's Name : ";
     cin >> name;
@@ -440,14 +456,15 @@ void viewData()
     if (!file)
     {
         cout << "fail in opening the file";
+        exit(0);
     }
     cout << "\n\t\t\t\t\t\t|Students Record| \n\n";
 
     cout << "\n-----------------------------------------------------------------------------------------------------------------------\n"
-         << endl
-         << endl;
+        << endl
+        << endl;
     cout << "Roll \t Name \t\t\t College \t branch \t Attendance \t Physics \t Chemistry \t Maths" << endl
-         << endl;
+        << endl;
     string rollNumber, name, college, branch, attendance, physics, chemistry, maths;
 
     while (!file.eof()) // file.eof() = detects as how long the f
@@ -494,7 +511,7 @@ void adminVerification()
         {
             system("cls");
             cout << "\n\n\n\n\n\t\t"
-                 << "wrong password!, try again or type 'menu' to Navigate to Main Menu";
+                << "wrong password!, try again or type 'menu' to Navigate to Main Menu";
             cout << "\n\n\n\t\t\t\t\tEnter Password : ";
         }
 
@@ -519,14 +536,15 @@ void studentFunction()
     if (!file)
     {
         cout << "fail in opening the file";
+        exit(0);
     }
     cout << "\n\t\t\t\t\t\t|Students Record| \n\n";
 
     cout << "\n-----------------------------------------------------------------------------------------------------------------------\n"
-         << endl
-         << endl;
+        << endl
+        << endl;
     cout << "Roll \t Name \t\t\t College \t branch \t Attendance \t Physics \t Chemistry \t Maths" << endl
-         << endl;
+        << endl;
     string rollNumber, name, college, branch, attendance, physics, chemistry, maths;
 
     while (!file.eof()) // file.eof() = detects as how long the f
