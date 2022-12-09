@@ -1,4 +1,7 @@
-﻿  main.cpp
-C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\loading.h(11,11): warning C4309: 'initializing': truncation of constant value
-C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\loading.h(11,20): warning C4309: 'initializing': truncation of constant value
+﻿  AdminFunction.cpp
+C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\Student-Record-Management-System\AdminFunction.cpp(168,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\Student-Record-Management-System\AdminFunction.cpp(142,16): warning C4101: 'new_marks': unreferenced local variable
+C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\Student-Record-Management-System\AdminFunction.cpp(142,9): warning C4101: 'index': unreferenced local variable
+C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\Student-Record-Management-System\AdminFunction.cpp(141,10): warning C4101: 'sub': unreferenced local variable
+C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\Student-Record-Management-System\AdminFunction.cpp(140,25): warning C4101: 'marks': unreferenced local variable
   Student-Record-Management-System.vcxproj -> C:\Users\saban\Desktop\Training\Our_Repos\Student-Record-Management-System\Student-Record-Management-System\x64\Debug\Student-Record-Management-System.exe

@@ -3,7 +3,7 @@
 #include "StudentRecord.h"
 
 void StudentRecord::print() const
-{
+{	
 	std::cout << "Name:" << mName << "\t\t";
 	std::cout << "College:" << mCollege << "\t\t";
 	std::cout << "mAttendance :" << mAttendance << "\t\t";

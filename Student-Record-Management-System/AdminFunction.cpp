@@ -499,7 +499,6 @@ void adminVerification()
 
 void studentFunction()
 {
-
     system("cls");
 
     fstream file("data.csv");

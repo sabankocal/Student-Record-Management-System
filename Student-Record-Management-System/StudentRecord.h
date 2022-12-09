@@ -10,12 +10,7 @@ public:
 		std::string Attendance,
 		std::string Physics,
 		std::string Chemistry,
-		std::string Maths) : mName{ Name }, mCollege{ College }, mAttendance{ Attendance },
-		mPhysics{ Physics }, mChemistry{ Chemistry }, mMaths{ Maths }
-	{
-	}
-
-	~StudentRecord()
+		std::string Maths) : mName{ Name }, mCollege{ College }, mAttendance{ Attendance },mPhysics{ Physics }, mChemistry{ Chemistry }, mMaths{ Maths }
 	{
 	}
 
